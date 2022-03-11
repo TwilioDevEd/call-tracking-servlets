@@ -19,13 +19,11 @@ stories](https://www.twilio.com/use-cases/call-tracking).
 This project is configured to use a **TwiML App**, which allows us to easily set
 the voice URLs for all Twilio phone numbers we purchase in this app.
 
-Create a new TwiML app at https://www.twilio.com/user/account/apps/add and use
+Create a new TwiML app [in the Twilio Console](https://console.twilio.com/us1/develop/voice/manage/twiml-apps?frameUrl=%2Fconsole%2Fvoice%2Ftwiml%2Fapps%3Fx-target-region%3Dus1) and use
 its `Sid` as the `TWIML_APPLICATION_SID` environment variable wherever you run
 this app.
 
-![Creating a TwiML App](http://howtodocs.s3.amazonaws.com/call-tracking-twiml-app.gif)
-
-You can learn more about TwiML apps [here](https://www.twilio.com/help/faq/twilio-client/how-do-i-create-a-twiml-app).
+Learn more about how to [create a TwiML app](https://support.twilio.com/hc/en-us/articles/223180928-How-Do-I-Create-a-TwiML-App-).
 
 ## Set up
 
@@ -45,7 +43,7 @@ all the config values we need to run the application:
 | :---------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Account Sid  | Your primary Twilio account identifier - find this [in the Console](https://www.twilio.com/console).                                                         |
 | Auth Token   | Used to authenticate - [just like the above, you'll find this here](https://www.twilio.com/console).                                                         |
-| Phone number | A Twilio phone number in [E.164 format](https://en.wikipedia.org/wiki/E.164) - you can [get one here](https://www.twilio.com/console/phone-numbers/incoming) |
+| Phone number | A Twilio phone number in [E.164 format](https://en.wikipedia.org/wiki/E.164) - you can [get one here](https://console.twilio.com/us1/develop/phone-numbers/manage/search?frameUrl=%2Fconsole%2Fphone-numbers%2Fsearch%3Fx-target-region%3Dus1&currentFrameUrl=%2Fconsole%2Fphone-numbers%2Fsearch%3FisoCountry%3DUS%26searchTerm%3D%26searchFilter%3Dleft%26searchType%3Dnumber%26x-target-region%3Dus1%26__override_layout__%3Dembed%26bifrost%3Dtrue) |
 
 ### Local development
 
